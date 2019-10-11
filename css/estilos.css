@@ -5,14 +5,22 @@
 	padding-right: 30px;
 }
 #menu-header{
-	padding-left: 20px;
-	padding-right: 15px;
+	margin-top: 10px
+	padding-left: 0px;
 }
 #buscador-header{
 	margin-top: 10px;
 	padding-right: 15px;
 	padding-left: 0px;
 }
+input{
+	width: 42%;
+}
+button{
+	background-color: #ffffff;
+	border:none;
+}
+
 nav{margin-top: 10px;}
 nav ul{
 	list-style:none; padding-left:0;
@@ -38,7 +46,7 @@ nav ul li a:hover, .menu-activo{
 	padding-left:180px;
 }
 nav ul li h1{
-	text-decoration: none;color: #626262; font-size: 45px;padding: 20px 30px;font-family: PT Sans, sans-serif;
+	text-decoration: none;color: #626262; font-size: 44.88px;padding: 20px 30px;font-family: PT Sans, sans-serif;
 }
 #menu-subheader{
 	padding: 0px 35px;
@@ -140,7 +148,7 @@ nav ul li h6{
  border-right: none; border-right: 0px;	
 }
 #texto-piedepagina{
-	padding-left: 45px;
+	padding-left: 5px;
 }
 #texto-piedepagina h1{
 	color: #ffffff; font-size: 15px;
@@ -153,13 +161,17 @@ nav ul li h6{
 }
 #header-ocho{
 	
-	padding: 20px 320px;
+	padding: 20px;
 }
-#redes-sociales nav ul li{
+#Redes-sociales{
 	box-sizing: border-box;
 	font-size: 40px;
 	list-style:none;
  	display: inline-block;
-	text-decoration: none; color: #ffffff;
-	font-family: 'PT Sans', sans-serif;
 }
+#Redes-sociales nav ul li a{
+	text-decoration: none; color: #ffffff;
+	font-family: 'PT Sans', sans-serif;	
+	font-size: 15px;  padding: 0px 0px;border-right: 0px;
+}
+
